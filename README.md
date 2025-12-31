@@ -1,13 +1,31 @@
-# Your GitHub Learning Lab Repository for Introducing GitHub
+# GitHub Slideshow (React)
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
+This project has been rebuilt as a Vite + React web app (without Next.js or TypeScript). Use it as a starting point to craft interactive slides and pages with modern, fast tooling.
 
-Oh! I haven't introduced myself...
+## Getting started
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the dev server:
+   ```bash
+   npm run dev
+   ```
+3. Open the printed local URL and edit files inside `src/`.
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+## Scripts
 
-I'll meet you over there, can't wait to get started!
+- `npm run dev` – start the Vite dev server with hot reload.
+- `npm run build` – generate a production build in `dist/`.
+- `npm run preview` – preview the production build locally.
+- `npm run lint` – run ESLint on the project files.
 
-This course is using the :sparkles: open source project [reveal.js](https://github.com/hakimel/reveal.js/). In some cases we’ve made changes to the history so it would behave during class, so head to the original project repo to learn more about the cool people behind this project.
+## Project structure
+
+- `src/` contains the React components and styles.
+- `public/` holds static assets served at the root.
+- `vite.config.js` defines the build tooling configuration.
+- `eslint.config.js` holds linting rules for JavaScript and JSX.
+
+Happy hacking!
